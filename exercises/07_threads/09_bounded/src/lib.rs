@@ -21,7 +21,7 @@ impl TicketStoreClient {
     }
 }
 
-pub fn launch(capacity: usize) -> TicketStoreClient {
+fn launch(capacity: usize) -> TicketStoreClient {
     todo!();
     std::thread::spawn(move || server(receiver));
     todo!()
